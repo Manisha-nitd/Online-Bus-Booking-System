@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['usname']);
+unset($_SESSION['seats']);
+unset($_SESSION['bookid']);
+unset($_SESSION['busid']);
+unset($_SESSION['countseat']);
+header('location:login.php');
+?>
